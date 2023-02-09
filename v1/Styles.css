@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'avengers';
+    src: url(./fonts/heroesassemble2.ttf);
+
+}
+
+body {
+    /*  background: linear-gradient(#6ddfdf, #DCB8CB)*/
+
+    background-image: url(./img/fondo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+
+
+}
+
+.tittle {
+    text-align: center;
+    font-family: avengers;
+    font-size: xx-large;
+    color: #000000;
+    background-color: #3685B5;
+}
+
+.poster {
+    width: 400px;
+    height: 600px;
+
+    display: block;
+    margin: 0 auto;
+
+}
+
+.wrapperI {
+    background: linear-gradient(#6ddfdf, #DCB8CB);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid blue;
+    margin-top: 170px;
+
+}
+
+.wrapperD {
+    background: linear-gradient(#6ddfdf, #DCB8CB);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid blue;
+    margin-top: 150px;
+    text-align: center;
+
+    justify-content: center;
+}
+
+.trailer {
+    text-align: center;
+
+    justify-content: center;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 300px);
+    grid-row-gap: 250px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+.actores {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.characters article {
+    width: 35%;
+}
+
+.actores article {
+    width: 35%;
+
+}
+
+.imageiz {
+   
+    align-items: center;
+    margin-left: auto;
+}
+
+.last-image {
+    
+
+    display: block;
+    margin: 0 auto;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #30aaaa
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #eb82ba;
+    border-radius: 20px;
+    border: 3px solid #30aaaa;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+
+    text-align: center;
+}
+
+.send {
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+
+.dropdown {
+    position: relative;
+
+
+}
+
+.dropdown ul {
+    position: absolute;
+    background: linear-gradient(#6ddfdf, #DCB8CB);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid blue;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.4s;
+
+}
+
+.dropdown:hover ul {
+    max-height: 400px;
+
+}
+
+nav {
+    background-color: #DCB8CB;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid blue
+}
+
+.links {
+    background: linear-gradient(#6ddfdf, #DCB8CB);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid blue;
+    margin-top: 150px;
+    text-align: center;
+
+    justify-content: center;
+}
+
+.opinion {
+    background: linear-gradient(#6ddfdf, #DCB8CB);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid blue;
+    margin-top: 150px;
+    text-align: center;
+
+    justify-content: center;
+
+}
+
+.mediaTittle {
+    color: white;
+    text-decoration: underline;
+}
+
+.tableTittle {
+    color: white;
+    text-decoration: underline;
+}
+
+.watch {
+
+    color: white;
+    text-decoration: underline;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+.slider {
+    display: flex;
+    max-width: 600px;
+    height: 500px;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+video{
+    width: 600px;
+    height: 500px;
+}
+
+.slider img {
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgb(127, 231, 226);
+
+}
+.centerImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.actores article figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.actores article p {
+    text-align: center;
+}
+
+.characters article figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.characters article p{
+    text-align: center
+    ;
+    margin-right: 1em;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    background-color: rgb(250, 140, 125);
+    margin: auto;
+    
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #b1f57a;
+}
