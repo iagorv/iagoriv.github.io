@@ -1,5 +1,9 @@
 - [v0 pagina sin css](https://iagorv.github.io/iagoriv.github.io/v0/)
 - [v1 pagina con css](https://iagorv.github.io/iagoriv.github.io/v1/)
+- [v2 plantilla base](https://iagorv.github.io/iagoriv.github.io/v2/)
+- [v3 plantilla modificada](https://iagorv.github.io/iagoriv.github.io/v3/)
+
+Propiedades usadas en la version 1:
 Listado de propiedades css:
 font-family:
 src:
@@ -46,5 +50,3 @@ border-radius:
 box-shadow:
 padding: 
 
-- [v2 plantilla base](https://iagorv.github.io/iagoriv.github.io/v2/)
-- [v3 plantilla modificada](https://iagorv.github.io/iagoriv.github.io/v3/)
